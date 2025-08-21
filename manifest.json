@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Simple TTS App",
+  "version": "1.0",
+  "description": "A simple text-to-speech app with LLM features.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_security_policy": "script-src 'self' https://cdn.tailwindcss.com; object-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com"
+}
